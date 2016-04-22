@@ -6,7 +6,14 @@ using System.Threading.Tasks;
 
 namespace Calculator
 {
-    class Subtraction
+    public class Subtraction : Mathmatics
     {
+        public void doSubtraction(double number1, double number2)
+        {
+            this.number1 = number1;
+            this.number1 = number2;
+            solution = (number1 - number2);
+            Console.WriteLine(solution);
+        }
     }
 }

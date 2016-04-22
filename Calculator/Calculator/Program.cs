@@ -10,6 +10,10 @@ namespace Calculator
     {
         static void Main(string[] args)
         {
+            mainMenu main = new mainMenu();
+            main.menu();
+            main.otherMainMenu();
+            Console.ReadLine();
         }
     }
 }

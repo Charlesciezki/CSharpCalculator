@@ -6,7 +6,14 @@ using System.Threading.Tasks;
 
 namespace Calculator
 {
-    class Addition
+    public class Addition : Mathmatics
     {
+        public void doAddition(double number1, double number2)
+        {
+            this.number1 = number1;
+            this.number1 = number2;
+            solution = (number1 + number2);
+            Console.WriteLine(solution);
+        }
     }
 }
